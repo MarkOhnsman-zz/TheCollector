@@ -1,0 +1,36 @@
+.navbar-brand.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--primary)
+}
+
+.card {
+    border-radius: unset;
+    border: unset;
+}
+
+.card-body{
+    padding-top: .25em;
+    padding-right: .2em;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    border-radius: unset;
+}
+
+.tag {
+    font-size: .65em;
+    background-color: var(--secondary);
+    display: inline;
+    padding: 3px
+}
+
+.delete{
+    align-self: flex-end;
+    position: relative;
+    top: -1.5em;
+}
+.delete:hover{
+    color: var(--danger);
+    cursor: pointer;
+}
